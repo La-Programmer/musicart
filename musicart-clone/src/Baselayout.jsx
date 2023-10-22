@@ -8,7 +8,7 @@ import play from './assets/play.svg';
 import shuffle from './assets/shuffle.svg';
 import {BsSearch} from 'react-icons/bs';
 import Home from './icons/Home';
-import Collection from './icons/collection';
+import Collection from './icons/Collection';
 import Logout from './icons/Logout';
 import Profile from './icons/Profile';
 import Radio from './icons/Radio';
