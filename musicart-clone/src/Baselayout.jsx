@@ -19,7 +19,9 @@ import {Link, NavLink} from 'react-router-dom';
 function Baselayout({children, background, className}) {
 
   return (
-    <div className={`bg-[#1D2123] flex flex-row w-full h-full`}>
+    <div className={`bg-[#1D2123] flex flex-row w-full h-full ${
+      className ? className : ''
+    }`} style={{background}}>
       <aside className='top-0 h-screen w-fit py-4 px-2 flex flex-col gap-10 items-center'>
         <Link to='/'>
           <button>
@@ -74,7 +76,7 @@ function Baselayout({children, background, className}) {
       </section>
 
       {/* Music Player */}
-      <section className="h-[17%] w-full backdrop-blur flex flex-row px-4 py-2 items-center fixed bottom-0 left-0 justify-between mx-auto">
+      <section className="h-[17%] w-full backdrop-blur flex flex-row px-4 py-2 items-center fixed bottom-0 left-0 justify-between mx-auto invisible">
         <div className='flex flex-row items-center gap-4'>
           <img src={cover} alt='Song/Album Cover' className='w-20 h-20 rounded-2xl'/>
           <div className='flex flex-col'>

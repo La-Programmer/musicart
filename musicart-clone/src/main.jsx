@@ -3,20 +3,34 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import {
   createBrowserRouter,
-  createRoutesFromElements,
   Route,
   RouterProvider,
 } from "react-router-dom";
 import Home from './Homepage';
 import Collection from './Collectionpage';
+import Collections from './Collections';
+import Likes from './Likes';
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path="/" element={<Home />}>
-      <Route path="collection" element={<Collection/>}/>
-    </Route>
-  )
-);
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "collection",
+    element: <Collection />,
+    children:[
+      {
+        path: "collections",
+        element: <Collections/>, 
+      },
+      {
+        path: "likes",
+        element: <Likes/>,
+      }
+    ],
+  },
+]);
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

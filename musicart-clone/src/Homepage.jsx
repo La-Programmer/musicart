@@ -66,57 +66,57 @@ function Home() {
                 <h4 className='text-white font-bold py-2 text-2xl'>New Releases</h4>
 
                 <div className='flex flex-row gap-4 justify-start items-center snap-x snap-mandatory w-full overflow-x-auto scrollbar-hide box-border'>
-                    <div className='snap-start min-w-fit flex flex-col items-start gap-2'>
+                    <div className='snap-start min-w-fit flex flex-col items-start gap-2 hover:bg-bggrey p-4 rounded-[25px]'>
+                        <img src={cover} alt='2' className='rounded-[25px] shadow-md'/>
+                        <p className='text-white font-extralight'>Song1</p>
+                        <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>
+                    </div>
+                    <div className='snap-start min-w-fit flex flex-col items-start gap-2 hover:bg-bggrey p-4 rounded-[25px]'>
                         <img src={cover} alt='2' className='rounded-[25px]'/>
                         <p className='text-white font-extralight'>Song1</p>
                         <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>
                     </div>
-                    <div className='snap-start min-w-fit flex flex-col items-start gap-2'>
+                    <div className='snap-start min-w-fit flex flex-col items-start gap-2 hover:bg-bggrey p-4 rounded-[25px]'>
                         <img src={cover} alt='2' className='rounded-[25px]'/>
                         <p className='text-white font-extralight'>Song1</p>
                         <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>
                     </div>
-                    <div className='snap-start min-w-fit flex flex-col items-start gap-2'>
+                    <div className='snap-start min-w-fit flex flex-col items-start gap-2 hover:bg-bggrey p-4 rounded-[25px]'>
                         <img src={cover} alt='2' className='rounded-[25px]'/>
                         <p className='text-white font-extralight'>Song1</p>
                         <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>
                     </div>
-                    <div className='snap-start min-w-fit flex flex-col items-start gap-2'>
+                    <div className='snap-start min-w-fit flex flex-col items-start gap-2 hover:bg-bggrey p-4 rounded-[25px]'>
                         <img src={cover} alt='2' className='rounded-[25px]'/>
                         <p className='text-white font-extralight'>Song1</p>
                         <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>
                     </div>
-                    <div className='snap-start min-w-fit flex flex-col items-start gap-2'>
+                    <div className='snap-start min-w-fit flex flex-col items-start gap-2 hover:bg-bggrey p-4 rounded-[25px]'>
                         <img src={cover} alt='2' className='rounded-[25px]'/>
                         <p className='text-white font-extralight'>Song1</p>
                         <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>
                     </div>
-                    <div className='snap-start min-w-fit flex flex-col items-start gap-2'>
+                    <div className='snap-start min-w-fit flex flex-col items-start gap-2 hover:bg-bggrey p-4 rounded-[25px]'>
                         <img src={cover} alt='2' className='rounded-[25px]'/>
                         <p className='text-white font-extralight'>Song1</p>
                         <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>
                     </div>
-                    <div className='snap-start min-w-fit flex flex-col items-start gap-2'>
+                    <div className='snap-start min-w-fit flex flex-col items-start gap-2 hover:bg-bggrey p-4 rounded-[25px]'>
                         <img src={cover} alt='2' className='rounded-[25px]'/>
                         <p className='text-white font-extralight'>Song1</p>
                         <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>
                     </div>
-                    <div className='snap-start min-w-fit flex flex-col items-start gap-2'>
+                    <div className='snap-start min-w-fit flex flex-col items-start gap-2 hover:bg-bggrey p-4 rounded-[25px]'>
                         <img src={cover} alt='2' className='rounded-[25px]'/>
                         <p className='text-white font-extralight'>Song1</p>
                         <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>
                     </div>
-                    <div className='snap-start min-w-fit flex flex-col items-start gap-2'>
+                    <div className='snap-start min-w-fit flex flex-col items-start gap-2 hover:bg-bggrey p-4 rounded-[25px]'>
                         <img src={cover} alt='2' className='rounded-[25px]'/>
                         <p className='text-white font-extralight'>Song1</p>
                         <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>
                     </div>
-                    <div className='snap-start min-w-fit flex flex-col items-start gap-2'>
-                        <img src={cover} alt='2' className='rounded-[25px]'/>
-                        <p className='text-white font-extralight'>Song1</p>
-                        <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>
-                    </div>
-                    <div className='snap-start min-w-fit flex flex-col items-start gap-2'>
+                    <div className='snap-start min-w-fit flex flex-col items-start gap-2 hover:bg-bggrey p-4 rounded-[25px]'>
                         <img src={cover} alt='2' className='rounded-[25px]'/>
                         <p className='text-white font-extralight'>Song1</p>
                         <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>
@@ -129,57 +129,57 @@ function Home() {
                 <h4 className='text-white font-bold py-2 text-2xl'>Popular in your area</h4>
 
                 <div className='flex flex-row gap-4 justify-start items-center snap-x snap-mandatory w-full overflow-x-auto scrollbar-hide box-border'>
-                    <div className='snap-start min-w-fit flex flex-col items-start gap-2'>
+                    <div className='snap-start min-w-fit flex flex-col items-start gap-2 hover:bg-bggrey p-4 rounded-[25px]'>
                         <img src={cover} alt='2' className='rounded-[25px]'/>
                         <p className='text-white font-extralight'>Song1</p>
                         <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>
                     </div>
-                    <div className='snap-start min-w-fit flex flex-col items-start gap-2'>
+                    <div className='snap-start min-w-fit flex flex-col items-start gap-2 hover:bg-bggrey p-4 rounded-[25px]'>
                         <img src={cover} alt='2' className='rounded-[25px]'/>
                         <p className='text-white font-extralight'>Song1</p>
                         <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>
                     </div>
-                    <div className='snap-start min-w-fit flex flex-col items-start gap-2'>
+                    <div className='snap-start min-w-fit flex flex-col items-start gap-2 hover:bg-bggrey p-4 rounded-[25px]'>
                         <img src={cover} alt='2' className='rounded-[25px]'/>
                         <p className='text-white font-extralight'>Song1</p>
                         <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>
                     </div>
-                    <div className='snap-start min-w-fit flex flex-col items-start gap-2'>
+                    <div className='snap-start min-w-fit flex flex-col items-start gap-2 hover:bg-bggrey p-4 rounded-[25px]'>
                         <img src={cover} alt='2' className='rounded-[25px]'/>
                         <p className='text-white font-extralight'>Song1</p>
                         <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>
                     </div>
-                    <div className='snap-start min-w-fit flex flex-col items-start gap-2'>
+                    <div className='snap-start min-w-fit flex flex-col items-start gap-2 hover:bg-bggrey p-4 rounded-[25px]'>
                         <img src={cover} alt='2' className='rounded-[25px]'/>
                         <p className='text-white font-extralight'>Song1</p>
                         <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>
                     </div>
-                    <div className='snap-start min-w-fit flex flex-col items-start gap-2'>
+                    <div className='snap-start min-w-fit flex flex-col items-start gap-2 hover:bg-bggrey p-4 rounded-[25px]'>
                         <img src={cover} alt='2' className='rounded-[25px]'/>
                         <p className='text-white font-extralight'>Song1</p>
                         <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>
                     </div>
-                    <div className='snap-start min-w-fit flex flex-col items-start gap-2'>
+                    <div className='snap-start min-w-fit flex flex-col items-start gap-2 hover:bg-bggrey p-4 rounded-[25px]'>
                         <img src={cover} alt='2' className='rounded-[25px]'/>
                         <p className='text-white font-extralight'>Song1</p>
                         <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>
                     </div>
-                    <div className='snap-start min-w-fit flex flex-col items-start gap-2'>
+                    <div className='snap-start min-w-fit flex flex-col items-start gap-2 hover:bg-bggrey p-4 rounded-[25px]'>
                         <img src={cover} alt='2' className='rounded-[25px]'/>
                         <p className='text-white font-extralight'>Song1</p>
                         <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>
                     </div>
-                    <div className='snap-start min-w-fit flex flex-col items-start gap-2'>
+                    <div className='snap-start min-w-fit flex flex-col items-start gap-2 hover:bg-bggrey p-4 rounded-[25px]'>
                         <img src={cover} alt='2' className='rounded-[25px]'/>
                         <p className='text-white font-extralight'>Song1</p>
                         <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>
                     </div>
-                    <div className='snap-start min-w-fit flex flex-col items-start gap-2'>
+                    <div className='snap-start min-w-fit flex flex-col items-start gap-2 hover:bg-bggrey p-4 rounded-[25px]'>
                         <img src={cover} alt='2' className='rounded-[25px]'/>
                         <p className='text-white font-extralight'>Song1</p>
                         <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>
                     </div>
-                    <div className='snap-start min-w-fit flex flex-col items-start gap-2'>
+                    <div className='snap-start min-w-fit flex flex-col items-start gap-2 hover:bg-bggrey p-4 rounded-[25px]'>
                         <img src={cover} alt='2' className='rounded-[25px]'/>
                         <p className='text-white font-extralight'>Song1</p>
                         <p className='text-sm text-[rgba(255, 255, 255, 0.5)]'>Sean Swaddler</p>

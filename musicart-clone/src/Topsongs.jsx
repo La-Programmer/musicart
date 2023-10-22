@@ -1,10 +1,10 @@
 import React from 'react'
 import cover from './assets/song1.svg';
-import heart from './assets/heart1.svg';
+import play from './assets/play.svg';
 
 function Topsongs({name, artist, time, like, image}) {
   return (
-    <section className='bg-[#1a1e1f] rounded-[20px] p-4 flex mb-4 flex-row items-center'>
+    <section className='bg-[#1a1e1f] group hover:bg-bggrey transition duration-300 rounded-[20px] p-4 flex mb-4 flex-row items-center'>
         <div className="w-[20%] mr-4">
             <img src={cover} className='w-full h-full'/>
         </div>
@@ -20,7 +20,7 @@ function Topsongs({name, artist, time, like, image}) {
             </div>
         </div>
         <button className='w-[10%]'>
-            <img src={heart} className='w-full h-full rounded-full border p-2 border-slate-50/20'/>
+            <img src={play} className='w-full h-full rounded-full p-2 bg-[#facd66] opacity-0 group-hover:opacity-100 transition duration-300'/>
         </button>
     </section>
   )
