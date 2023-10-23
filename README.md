@@ -13,4 +13,4 @@ MUSICART is a responsive and user-friendly web-based music player application bu
 - **HTML/CSS**: Utilized HTML and CSS for structuring and styling the app interface.
 
 - **JavaScript**: Implemented various interactive features and functionalities using JavaScript.
-
+See live implementation at https://musicart-gules.vercel.app/
